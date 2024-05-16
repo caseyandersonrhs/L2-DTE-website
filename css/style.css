@@ -1,34 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 * {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
+	background-color: rgb(252,222,156);
 }
 
-
-.nav {
+li, a, button {
+   font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:rgb(186,86,36);
+	text-decoration: none;
 	background-color: rgb(255,165,82);
-	overflow: hidden;
 }
-/*Background Colour*/
+/* Styling the link font*/
 
-.navigation {
-	color: rgb(186,86,36);
-	font-size: 40px;
-	padding-left: 500px;
-	justify-content: space-around;
+header { 
 	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: rgb(255,165,82);
 }
-/* Style & placement of navigation bar*/
+/*Changing the placement of the links*/
 
 h1 {
-  background-color: rgb(255,165,82);
-  font-size: 100;
-  text-align: center-left
+	cursor: pointer;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+	background-color: rgb(255,165,82);
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-size: 56px;
+	color:rgb(186,86,36);
 }
-/* Header adjustment */
+/* Indicates that you can click on the logo*/
 
-body {
-  color: rgb(186,86,36);
-  background-color: rgb(252,222,156);
+.nav__links {
+	list-style: none;
+	background-color: rgb(255,165,82);
 }
-/* Main page adjustment*/
+/* Removes period infront of link*/
+
+.nav__Links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+/*Links go side by side instead of on top of each other*/
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+/*Adds a smooth transition on hover*/
+
+.nav__links li a:hover {
+	color:rgb(229,148,73);
+}
+/*Changes colour when hovering*/
+
+button {
+	margin-left: 20px;
+	padding: 9px 25px;
+	background-color: rgba(229,148,73,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+/*Changes button style*/
+
+button:hover {
+	background-color: rgba(229,148,73,0.8);
+	transform: translate(-10%, -10%);
+}
+/*Changes button background and shake on hover*/
+
+
+.topline {
+	height: 30px;
+	background-color: rgba(229,148,73,1);
+	padding: 10px;
+}
+/* Line to break up section*/
+
+/* Colours: 252,222,156 - background 255,165,82 - secondary background 186,86,36 - text colour
