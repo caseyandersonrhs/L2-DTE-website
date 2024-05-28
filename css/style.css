@@ -8,7 +8,7 @@
 }
 
 li, a, button {
-   font-family: "Poetsen One", sans-serif;
+	font-family: "Poetsen One", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color:rgb(186,86,36);
@@ -27,9 +27,8 @@ header {
 /*Changing the placement of the links*/
 
 h1 {
-	cursor: pointer;
 	margin-right: auto;
-	width: 50%;
+	width: 60%;
 	height: 50%;
 	background-color: rgb(255,165,82);
 	font-family: "Poetsen One", sans-serif;
@@ -37,7 +36,7 @@ h1 {
 	font-size: 56px;
 	color:rgb(186,86,36);
 }
-/* Indicates that you can click on the logo*/
+/* Styles text logo*/
 
 .nav__links {
 	list-style: none;
@@ -85,5 +84,46 @@ button:hover {
 	padding: 10px;
 }
 /* Line to break up section*/
+.featured {
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color:rgb(186,86,36);
+	text-decoration: none;
+	text-align: center;
+	margin-top: 50px;
+}
+/* Featured products text and styling*/
 
-/* Colours: 252,222,156 - background 255,165,82 - secondary background 186,86,36 - text colour
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
+	margin: 50px;
+}
+/*Change the placement of the featured products*/
+
+.column img{
+	height:450px;
+	border: 10px solid rgb(229,148,73);
+}
+/*Change style of featured images*/
+
+.column h3{
+	padding: 10px;
+	text-align: center;
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:rgb(186,86,36);
+	border: 10px solid rgb(229,148,73);
+	background-color: rgba(229,148,73,0.5);
+}
+/*Change the style of the text and prices*/
+
+
+
+/* Colours: 252,222,156 - background 255,165,82 - secondary background 186,86,36 - text colour*/
