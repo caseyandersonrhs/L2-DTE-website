@@ -4,16 +4,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: rgb(252,222,156);
+	background-color: rgb(125,161,181);
 }
 
 li, a, button {
 	font-family: "Poetsen One", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-	color:rgb(186,86,36);
+	color:rgb(51,57,72);
 	text-decoration: none;
-	background-color: rgb(255,165,82);
+	background-color: rgb(87,105,153);
 }
 /* Styling the link font*/
 
@@ -22,7 +22,7 @@ header {
 	justify-content: flex-end;
 	align-items: center;
 	padding: 30px 10%;
-	background-color: rgb(255,165,82);
+	background-color: rgb(87,105,153);
 }
 /*Changing the placement of the links*/
 
@@ -30,17 +30,17 @@ h1 {
 	margin-right: auto;
 	width: 60%;
 	height: 50%;
-	background-color: rgb(255,165,82);
+	background-color: rgb(87,105,153);
 	font-family: "Poetsen One", sans-serif;
 	font-weight: 400;
 	font-size: 56px;
-	color:rgb(186,86,36);
+	color:rgb(51,57,72);
 }
 /* Styles text logo*/
 
 .nav__links {
 	list-style: none;
-	background-color: rgb(255,165,82);
+	background-color: rgb(87,105,153);
 }
 /* Removes period infront of link*/
 
@@ -56,14 +56,14 @@ h1 {
 /*Adds a smooth transition on hover*/
 
 .nav__links li a:hover {
-	color:rgb(229,148,73);
+	color:rgb(38, 41, 51);
 }
 /*Changes colour when hovering*/
 
 button {
 	margin-left: 20px;
 	padding: 9px 25px;
-	background-color: rgba(229,148,73,1);
+	background-color: rgba(102,129,164,1);
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
@@ -72,7 +72,7 @@ button {
 /*Changes button style*/
 
 button:hover {
-	background-color: rgba(229,148,73,0.8);
+	background-color: rgba(102,129,164,0.5);
 	transform: translate(-10%, -10%);
 }
 /*Changes button background and shake on hover*/
@@ -80,7 +80,7 @@ button:hover {
 
 .topline {
 	height: 30px;
-	background-color: rgba(229,148,73,1);
+	background-color: rgb(104,132,165);
 	padding: 10px;
 }
 /* Line to break up section*/
@@ -88,7 +88,7 @@ button:hover {
 	font-family: "Poetsen One", sans-serif;
 	font-weight: 400;
 	font-size: 40px;
-	color:rgb(186,86,36);
+	color:rgb(51,57,72);
 	text-decoration: none;
 	text-align: center;
 	margin-top: 50px;
@@ -108,7 +108,7 @@ button:hover {
 
 .column img{
 	height:450px;
-	border: 10px solid rgb(229,148,73);
+	border: 10px solid rgb(107,136,168);
 }
 /*Change style of featured images*/
 
@@ -118,12 +118,24 @@ button:hover {
 	font-family: "Poetsen One", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-	color:rgb(186,86,36);
-	border: 10px solid rgb(229,148,73);
-	background-color: rgba(229,148,73,0.5);
+	color:rgb(73,82,103);
+	border: 10px solid rgb(107,136,168);
+	background-color: rgb(137,160,191);
 }
 /*Change the style of the text and prices*/
 
+.googleform {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+	border-radius: 25px;
+	border: 10px solid rgb(107,136,168);
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+/*Google form section*/
 
 
-/* Colours: 252,222,156 - background 255,165,82 - secondary background 186,86,36 - text colour*/
+/* Colours: 148,196,199 - background 255,165,82 - secondary background 73,82,103 - text colour*/
