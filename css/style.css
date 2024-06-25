@@ -168,12 +168,20 @@ button:hover {
 }
 /*Change the style of the text and prices*/
 
+.aboutus {
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color:rgb(51,57,72);
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10px;
+}
+
 .aboutpage {
 	padding: 10px;
 	text-align: center;
 	font-family: "Josefin Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: weight;
 	font-style: normal;
 	font-size: 24px;
 	color:rgb(73,82,103);
